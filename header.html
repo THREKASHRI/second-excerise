@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="../dist/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="../dist/semantic.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|satisfy|Marck+Script|Aladin|Bad+Script|Rancho|Pinyon+Script|Arizonia|Merienda|Berkshire+Swash" rel="stylesheet">
+  <title>header</title>
+</head>
+<body>
+  <header class="ui grid container">
+        <div class="computer tablet only row">
+            <div class="ui secondary fixed menu" id="header">
+              <div class="ui equal width grid">
+              <div class="stackable row">
+                 <div class="column" id="head1">
+                     <div class="item"><img class="ui image" src="../responsive/image/black.jpg" /> </div>
+                 </div>
+                 <div class="column" id="head2">
+                     <div class="item">
+                         <h1>BLACK THUNDER</h1></div>
+                 </div>
+                 <div class="column" id="head3">
+                     <div class="column" id="head4">
+                         <div class="item"><a href="#"> ATTRACTION <i class="cart icon"></i></a></div>
+                     </div>
+                 </div>
+             </div>
+                <div class="stackable row">
+                  <div class="ui stackable basic  top menu container" id="menurow2">
+                      <div><a id="toggle3" class=" item"><i class="sidebar icon"></i>menu</a></div>
+                      <div class="right menu"> <a href="D:/workspace/semantic/index.html" id="menu1" class="item">Login<i class="sign in icon icon"></i></a></div>
+                      <a href="GALARY.html" id="menu3" class=" item">Gallery<i class="image icon"></i></a>
+                      <a href="https://www.google.co.in/maps/place/Black+Thunder/@11.3279139,76.9096768,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba8f660d83ee489:0x196424a05321db72!8m2!3d11.3279139!4d76.9118655" id="menu2" class="item">Location <i class="location arrow icon"></i></a>
+                      <a href="#" id="menu4" class="ui input"><input type="text" placeholder="search.."> <i class="search icon"></i></a>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="ui sidebar left vertical menu">
+                <a href="http://btpark.org/resort/" class="item">Resort<i class="download icon"></i></a>
+                <a href="http://btpark.org/facilities/" class="item">Factilites<i class="history icon"></i></a>
+            </div>
+          </div>
+
+        <div class="mobile only row">
+            <div class="ui fixed menu">
+
+                <div class="right menu open">
+                  <div><a id="toggle1" class=" item"><i class="sidebar icon"></i></a></div>
+                </div>
+            </div>
+            <div class="ui navbar left vertical menu" id="sidee2">
+              <div class="item">
+                  <div class="item"><img class="ui image" src="../responsive/image/black.jpg" /> </div>
+              </div>
+              <div class="item"><a href="#"><h1>BLACK THUNDER</h1></a></div>
+              <div class="item"><a href="#">ATTRACTION <i class="cart icon"></i></a></div>
+              <div class="right menu"> <a href="D:/workspace/semantic/index.html"  class="item">Login<i class="sign in icon icon"></i></a></div>
+              <a href="GALARY.html"  class=" item">Gallery<i class="image icon"></i></a>
+              <a href="https://www.google.co.in/maps/place/Black+Thunder/@11.3279139,76.9096768,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba8f660d83ee489:0x196424a05321db72!8m2!3d11.3279139!4d76.9118655"  class="item">Location <i class="location arrow icon"></i></a>
+              <a href="#" class="ui input"><input type="text" placeholder="search.."> <i class="search icon"></i></a>
+        </div>
+        </div>
+    </header>
+
+    <script>
+        $('#toggle3').click(function() {
+            $('.ui.sidebar').sidebar('toggle');
+        });
+        $('#toggle1').click(function() {
+            $('#sidee2').toggle();
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="pusher"> -->
+<!-- <header>
+  <div class="ui grid container computer tablet only">
+<div class="ui stackable fixed secondary menu" id="menu">
+    <div class="ui equal width grid">
+         <div class="stackable row">
+            <div class="column" id="head1">
+                <div class="item"><img class="ui image" src="../responsive/image/black.jpg" /> </div>
+            </div>
+            <div class="column" id="head2">
+                <div class="item">
+                    <h1>BLACK THUNDER</h1></div>
+            </div>
+            <div class="column" id="head3">
+                <div class="column" id="head4">
+                    <div class="item"><a href="#"> ATTRACTION <i class="cart icon"></i></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="stackable row">
+            <div class="ui stackable basic  top menu container" id="menurow2">
+                <div><a id="toggle" class=" item"><i class="sidebar icon"></i>menu</a></div>
+                <div class="right menu"> <a href="D:/workspace/semantic/index.html" id="menu1" class="item">Login<i class="sign in icon icon"></i></a></div>
+                <a href="GALARY.html" id="menu3" class=" item">Gallery<i class="image icon"></i></a>
+                <a href="https://www.google.co.in/maps/place/Black+Thunder/@11.3279139,76.9096768,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba8f660d83ee489:0x196424a05321db72!8m2!3d11.3279139!4d76.9118655" id="menu2" class="item">Location <i class="location arrow icon"></i></a>
+                <a href="#" id="menu4" class="ui input"><input type="text" placeholder="search.."> <i class="search icon"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+  mobile view  -->
+  <div class="mobile only row">
+    <!-- <div class="pusher"> -->
+    <div class="ui fixed secondary menu" id="mmu">
+        <!-- <div class="ui equal width grid"> -->
+          <!-- <div class="stackable row"> -->
+            <!-- <div class="ui stackable basic  top menu container" id="me2"> -->
+              <div><a id="toggle1" class=" item"><i class="sidebar icon"></i></a></div>
+            <!-- </div> -->
+          <!-- </div> -->
+        <!-- </div> -->
+      </div>
+
+  </div>
+
+
+  <div class="ui navbar left vertical menu" id="sidee2">
+    <div class="right menu"> <a href="D:/workspace/semantic/index.html"  class="item">Login<i class="sign in icon icon"></i></a></div>
+    <a href="GALARY.html"  class=" item">Gallery<i class="image icon"></i></a>
+    <a href="https://www.google.co.in/maps/place/Black+Thunder/@11.3279139,76.9096768,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba8f660d83ee489:0x196424a05321db72!8m2!3d11.3279139!4d76.9118655"  class="item">Location <i class="location arrow icon"></i></a>
+    <a href="#" class="ui input"><input type="text" placeholder="search.."> <i class="search icon"></i></a>
+
+  </div>
+<!-- </div> -->
+</header>

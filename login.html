@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="dist/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="dist/semantic.min.js"></script>
+    <title>form</title>
+    <style>
+        body {
+            background-color: teal;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--login form -->
+    <div class="ui one column center aligned grid">
+        <div class="column six wide form-holder">
+            <h2 class="center aligned header form-head">Sign in</h2>
+            <form class="ui form segment" action="index.html">
+
+                <!-- form with first name -->
+                <div class="field">
+                    <label align="left">Firstname</label>
+                    <input placeholder="Firstname" name="Firstname" type="text">
+                </div>
+
+                <!-- form with last name -->
+                <div class="field">
+                    <label align="left">Lastname</label>
+                    <input placeholder="Lastname" name="Lastname" type="text">
+                </div>
+
+                <!-- form with password -->
+                <div class="field">
+                    <label align="left">Password</label>
+                    <input placeholder="password" type="password" name="password">
+                </div>
+
+                <!-- form with check box -->
+                <div class="inline field">
+                    <div class="ui checkbox">
+                        <input type="checkbox" name="terms">
+                        <label>Remember Me</label>
+                    </div>
+                </div>
+
+                <!-- form with submit button -->
+                <div class="ui primary submit button">Submit</div>
+                <div class="ui error message"></div>
+
+            </form>
+        </div>
+
+    </div>
+    <script>
+        $('.ui.form').form({
+            fields: {
+                Firstname: 'empty',
+                Lastname: 'empty',
+                password: ['minLength[6]', 'empty']
+            }
+        });
+    </script>
+</body>
+
+</html>

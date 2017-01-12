@@ -1,0 +1,166 @@
+#head1 {
+    padding-left: 10%;
+}
+
+#head2 h1 {
+    margin-top: 60px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 250%;
+    text-align: center;
+}
+
+#head3 {
+    margin-top: 60px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#menu4 i {
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+}
+
+#menu {
+    margin-top: 0px;
+    background-color: skyblue;
+    z-index: 1;
+}
+
+#menurow2 {
+    margin-top: 0px;
+    background-color: skyblue;
+    z-index: 1;
+    font-family: 'Satisfy', cursive;
+}
+
+#jumbotron {
+    margin-top: 270px;
+    padding-left: 20%;
+    align-content: center;
+}
+
+#jumbotron1 {
+    margin-top: 10px;
+}
+
+#jumbotron1 h1 {
+    font-family: 'Merienda', cursive;
+    text-align: center;
+}
+
+#column1 {
+    /*margin-left: 300px;*/
+    padding-top: 20px;
+}
+
+#column1 p {
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+    font-family: 'Bad Script', cursive;
+    margin-top: 20%;
+}
+
+#column1 h3 {
+    text-align: center;
+    color: black;
+    text-align: justify;
+    font-family: 'Aladin', cursive;
+    font-size: 200%;
+    margin-top: 10%;
+}
+
+#jumbotron2 {
+    margin-top: 40px;
+    padding-left: 40%;
+    font-family: 'Merienda One', cursive;
+}
+
+#jumbotron2 h1 {
+    font-family: 'Merienda', cursive;
+}
+
+#jumbotron3 {
+    text-align: center;
+    margin-top: 1px;
+    font-family: 'Arizonia', cursive;
+    font-size: 50px;
+}
+
+#column2 {
+    margin-left: 300px;
+    padding-top: 30px;
+}
+
+#column2 p {
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 250%;
+    margin-top: 5%;
+}
+
+#column2 h3 {
+    text-align: center;
+    color: black;
+    text-align: justify;
+    font-family: 'Rancho', cursive;
+    font-size: 200%;
+    margin-top: 5%;
+}
+
+#cont h1 {
+    padding-left: 40%;
+    margin-top: 5%;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+#continfo {
+    padding-left: 50%;
+    margin-top: 5%;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+#footer {
+    height: 10%;
+    padding-left: 25%;
+    background-color: skyblue;
+    font-family: 'Arizonia', cursive;
+}
+
+#footer p {
+    font-size: 19px;
+    color: black;
+    padding-top: 3%;
+}
+
+#footer i {
+    margin-top: 5%;
+}
+
+#body {
+    background-color: #e3e3e3;
+}
+
+#body i {
+    color: #BA0B1F;
+}
+
+#body a {
+    color: black;
+}
+
+#galary {
+    background-color: #e3e3e3;
+}
+
+#galcont {
+    margin-top: 10px;
+}
+
+#galcont a {
+    margin-top: 10px;
+    font-family: 'Arizonia', cursive;
+    font-size: 25px;
+}
